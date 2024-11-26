@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lampz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="css/header.css"> 
+    <link rel="stylesheet" href="css/carousel.css">
+
+</head>
+<body>
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" >
+                <img src="/images/logo.png" alt="">
+            </a>
+            
+        </div>
+        <ul>
+            <li>
+                <div class ="search">
+                    <span class="material-symbols-outlined">search</span>
+                    <input type="text" class="search-bar" placeholder="Search..." />
+
+                </div>
+                
+            </li>
+            <li>
+                <div id="menu">
+                    <span class="material-symbols-outlined" onclick="toggleMenu()">menu</span>
+                </div>
+            </li>
+        </ul>
+    </header>
+
+    <div id="sidebar" class="sidebar">
+        <div class="closebtn">
+            <span class="material-symbols-outlined" onclick="toggleMenu()">close</span>
+        </div>
+        
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+
+    <!--carousel-->
+    <div class="carousel">
+
+        <!--List items-->
+        <div class="list">
+            <div class="item">
+                <img src="images/lamp2.jpeg">
+                <div class="content">
+                    <div class="Name1">VELVET</div>
+                    <div class="Name2">LUMENS</div>
+                    <div class="des">Experience luxury redefined with Velvet Illumea lamp designed to bathe your space in a warm, 
+                        velvety light that soothes the senses and elevates your decor.</div>
+                    <div class="buttons">
+                       <button>DISCOVER</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="item">
+                <img src="images/lamp7.jpg">
+                <div class="content">
+                    <div class="Name1">LUSTROUS</div>
+                    <div class="Name2">SHINE</div>
+                    <div class="des">Radiating timeless elegance, Lustrous Shine fills your space with a bright yet gentle light, 
+                        perfect for creating a warm and inviting ambiance in any room.</div>
+                    <div class="buttons">
+                        <button>DISCOVER</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="item">
+                <img src="/images/lamp5.jpg">
+                <div class="content">
+                    <div class="Name1">LUMIER</div>
+                    <div class="Name2">DARK</div>
+                    <div class="des">A perfect blend of elegance and mystery, Lumier Dark casts a soft yet dramatic glow, 
+                        enhancing modern and minimalist interiors with its sophisticated aura.</div>
+                            
+                    <div class="buttons">
+                        <button>DISCOVER</button>
+                     </div>                   
+                </div>
+
+            </div>
+        </div>
+
+        <!-- thumbnails -->
+         <div class="thumbnail">
+            <div class="items">
+                <img src="/images/thumb1.jpeg" >
+                <div class="content">
+                    <div class="author">Velvet Lumens</div>
+                </div>
+            </div>
+            <div class="items">
+                <img src="/images/thumb4.jpg" >
+                <div class="content">
+                    <div class="author">Lustrous Shine</div>
+                </div>
+            </div>
+            <div class="items">
+                <img src="/images/thumb5.jpg" >
+                <div class="content">
+                    <div class="author">Lumier Dark</div>
+                </div>
+            </div>
+         </div>
+
+         
+    </div>
+
+    <script src="Js/menu.js"></script>
+    <script src="Js/carousel.js"></script>
+
+</body>
+</html>
